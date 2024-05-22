@@ -1,0 +1,6 @@
+.active{
+    color: var(--royalblue);
+} 
+.active > img{
+    filter: brightness(9) invert(3) sepia(1) saturate(9000%) hue-rotate(232deg);
+}

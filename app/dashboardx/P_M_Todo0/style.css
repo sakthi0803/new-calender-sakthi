@@ -1,0 +1,74 @@
+.rbc-header {
+  padding: 50px !important;
+  background: none;
+}
+
+.rbc-calendar {
+  background-color: #fafbfc;
+  padding: 10px;
+}
+
+.css-nbv3vr-MuiResponsiveChart-container {
+  width: 153px !important;
+  height: 152px !important;
+}
+
+.TodoDataTable .rbc-label {
+  color: var(--royalBlue);
+}
+.todoHeadingSelect .month-year-picker {
+  box-shadow: 0px 0px 10px 0px rgb(194, 194, 194);
+  color: var(--royalBlue);
+  border-radius: 10px;
+  font-size: 20px;
+  margin-bottom: 10px;
+  padding: 0px 10px !important;
+}
+.todoHeadingSelect .month-year-picker select {
+  font-size: 17px !important;
+}
+.TodoDataTable .rbc-btn-group button {
+  background-color: white !important;
+  border: none !important;
+  padding: 0px !important;
+  margin: 10px !important;
+}
+.TodoDataTable .rbc-btn-group .rbc-active {
+  background-color: white !important;
+  border-bottom: 2px solid !important;
+  border-color: var(--royalBlue) !important;
+  box-shadow: none !important;
+}
+
+.calendarTopSection {
+  position: absolute;
+  background: white;
+  box-shadow: 0px 0px 10px 0px gray;
+  padding: 10px;
+  border-radius: 5px 0px 0px 5px;
+  border-left: 20px solid;
+  border-color: var(--royalBlue);
+  z-index: 333;
+}
+
+.calendarTopSection:hover {
+  background-color: var(--royalBlue);
+}
+.calendarTopSection:hover li {
+  color: white;
+}
+
+
+.rbc-day-slot .rbc-event{
+    min-height: 200px !important;
+    overflow: auto !important;
+    border: none !important;
+    background-color: transparent !important;
+    padding: 10px !important;
+    color: #000 !important;
+}
+
+
+.rbc-day-slot .rbc-event-label{
+    display: none;
+}

@@ -1,0 +1,58 @@
+@media screen and (max-width: 1200px) {
+    .CandidateStatus th,.CandidateStatus td {
+        white-space: nowrap;
+    }
+  }
+
+  @media screen and (max-width: 991px) {
+    .modalHeader {
+       top:0% !important;
+       transform: translate(-50%, 0%);
+    }
+  }
+  
+  @media screen and (max-width: 900px) {
+    .mobileMenu button {
+       padding: 0px;
+    }
+    .mobileMenu .css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root{
+      margin: 0px 14px;
+    }
+  }
+  @media screen and (max-width: 767px) {
+    .logo-top {
+      height: 100%;
+    }
+    .projectText p{
+      line-height: 28px;
+    }
+    .caledarFilter{
+      flex-direction: column;
+      padding: 15px 10px;
+    }
+  }
+
+  @media screen and (max-width:500px) {
+    .projectText h1 {
+     font-size: 29px;
+    } 
+    .projectText p{
+      font-size: 17px;
+    }
+  }
+  
+  @media screen and (min-width: 991px) {
+    .headerDropdwon .MuiMenu-paper {
+      top: 60px !important;
+    }
+    .notificationData.css-az8st9-MuiDataGrid-root .MuiDataGrid-row:not(.MuiDataGrid-row--dynamicHeight)>.MuiDataGrid-cell{
+      white-space: normal;
+    }
+    .col-lg-1.leftMenuWidth{
+      flex: 0 0 auto;
+      width: 7.7%;
+  }
+  .headerDropdwon .css-3dzjca-MuiPaper-root-MuiPopover-paper-MuiMenu-paper{
+    top: 50px !important;
+  }
+  }
